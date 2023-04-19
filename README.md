@@ -53,6 +53,11 @@ We also observed extreme values in the garage category which we have dropped in 
 
 
 
+![image](https://user-images.githubusercontent.com/116105684/233201745-2eaee33f-c7e0-48f1-9726-7b18a17d1e3c.png)
+![image](https://user-images.githubusercontent.com/116105684/233201802-94baa90e-05be-412f-954b-fdd2ad34a1bf.png)
+![image](https://user-images.githubusercontent.com/116105684/233201828-60057a2f-572f-478a-b41d-49a939399616.png)
+
+
 
 
 
