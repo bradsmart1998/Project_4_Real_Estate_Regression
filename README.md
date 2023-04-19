@@ -92,11 +92,11 @@ Here is an image of the results for all other regression models.
 ![image](https://user-images.githubusercontent.com/116105684/233205023-f834b153-a7b5-4827-8488-1537187451dc.png)
 
 
-What Would We Do Next Time![image](https://user-images.githubusercontent.com/116105684/233205060-011baf65-0df6-46d8-841a-c524c8d50099.png)
+### <ins>What Would We Do Next Time</ins>
 
 Next time we would like to experiment with the columns so that we can try and bring down the RMSE score.
 We would also look into the variance inflation factors to find out what columns are affect our scores.
 If we had more more time we would make machine learning models with different segments of data.
 We would also like to trail more parameters to improve the model
-![image](https://user-images.githubusercontent.com/116105684/233205136-c3dc191b-34c0-45cc-b4eb-529fc6256445.png)
+
 
