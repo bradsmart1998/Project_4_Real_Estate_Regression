@@ -47,23 +47,18 @@ We swapped the year built column with the age of the property. We also had to ch
 we extracted the date from date_sold and replaced it with month_sold and year_sold. 
 
 
-
 ![image](https://user-images.githubusercontent.com/116105684/233203730-941524fe-229d-4785-b053-0ede2128acc0.png)
 ![image](https://user-images.githubusercontent.com/116105684/233203755-751ea6b3-56f3-4954-8af3-4f7978cd0b94.png)
 
-
-
-Clean DF![image](https://user-images.githubusercontent.com/116105684/233204485-1ec17aba-8eef-47d5-a4d3-bc98a92b86b6.png)
+Here is a quick snippet of our clean DataFrame. 
 
 ![image](https://user-images.githubusercontent.com/116105684/233204505-30b383f0-12b7-4609-bd3c-4943e353a7ad.png)
 
-This is a picture of our new data frame showing the 3 extra columns we added
 
-
-Data Storage![image](https://user-images.githubusercontent.com/116105684/233204568-c2af3fd5-ba3d-4ad1-abde-378aa134dbc4.png)
+#### <ins>Data Storage</ins>
 
 We loaded our data in our database using postgres and our database tool is PGadmin.
-![image](https://user-images.githubusercontent.com/116105684/233204597-58e4081e-2b05-4a3b-bc64-f165e3b1d1aa.png)
+
 ![image](https://user-images.githubusercontent.com/116105684/233204622-3efdd444-26bb-4dd6-9976-7e6886760f91.png)
 
 
