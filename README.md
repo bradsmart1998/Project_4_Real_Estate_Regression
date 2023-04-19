@@ -1,2 +1,4 @@
-# Project_4_Real_Estate_Regression
-Repository to store our our files for our project 4 challenge
+# <ins>Project 4 Real Estate Regression</ins>
+
+![image](https://user-images.githubusercontent.com/116304118/233195721-96264cdc-338f-4f96-bca5-274172b79ed1.png)
+
