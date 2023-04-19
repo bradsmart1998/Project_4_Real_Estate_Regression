@@ -94,9 +94,10 @@ Here is an image of the results for all other regression models.
 
 ### <ins>What Would We Do Next Time</ins>
 
-Next time we would like to experiment with the columns so that we can try and bring down the RMSE score.
-We would also look into the variance inflation factors to find out what columns are affect our scores.
-If we had more more time we would make machine learning models with different segments of data.
-We would also like to trail more parameters to improve the model
+* Next time we would like to experiment with the columns, so that we can try and bring down the RMSE score. 
+* We would also look into the variance inflation factors to find out which columns affect our scores.
+* If we had more more time we would make machine learning models with different segments of data.
+* We would also like to trail more parameters to improve the model.
+* We had gathered more data using `Geoapify.com`. Data we collected was airports, restaurants, police stations and shopping malls. To view the csv file, please click [here](https://github.com/bradsmart1998/Project_4_Real_Estate_Regression/blob/main/Data/collected_data_api.csv)
 
 
