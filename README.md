@@ -4,11 +4,11 @@
 
 ![image](https://user-images.githubusercontent.com/116105684/233199018-80ed6469-4550-45e4-b343-c4ad9c9fca17.png)
 
-#### <ins>DATA SOURCE</ins>
+### <ins>DATA SOURCE</ins>
 We have downloaded data from kaggle. Click [here](https://www.kaggle.com/datasets/syuzai/perth-house-prices) to view the link. 
 
 
-#### <ins>Overview</ins>
+### <ins>Overview</ins>
 
 For our final project, we are looking to create a regression model to predict the price of houses based on given features. 
 
@@ -17,7 +17,7 @@ We could see that the houses are more expensive in certain areas, especially tho
 
 ![image](https://user-images.githubusercontent.com/116105684/233200524-1b848211-b32b-435f-8810-25e770217e1e.png)
 
-#### <ins>EDA Process</ins>
+### <ins>EDA Process</ins>
 
 These graphs show the spread of the data in our numerical columns. We do experience a large spread of results in columns such as garages (max - 99).
 We also experience a large spread in house prices. Most common prices are around $480,000 and max is nearly $2,500,000. 
@@ -39,7 +39,7 @@ We did experience outliers in our dataset. We have data on a variety of houses w
 
 ![image](https://user-images.githubusercontent.com/116105684/233201828-60057a2f-572f-478a-b41d-49a939399616.png)
 
-#### <ins>Data Cleaning</ins>
+### <ins>Data Cleaning</ins>
 
 As mentioned previously, we have dropped the rows with houses that had more than 9 garage units. We have experienced null values in the dataset in the garage, build year, and nearest school rank columns. To overcome this issue, we replaced the missing values with the mode, so that we could keep most of the data.
 
@@ -55,38 +55,39 @@ Here is a quick snippet of our clean DataFrame.
 ![image](https://user-images.githubusercontent.com/116105684/233204505-30b383f0-12b7-4609-bd3c-4943e353a7ad.png)
 
 
-#### <ins>Data Storage</ins>
+### <ins>Data Storage</ins>
 
 We loaded our data in our database using postgres and our database tool is PGadmin.
 
 ![image](https://user-images.githubusercontent.com/116105684/233204622-3efdd444-26bb-4dd6-9976-7e6886760f91.png)
 
 
-Machine Learning Model![image](https://user-images.githubusercontent.com/116105684/233204801-692ca82a-b0ea-4d65-877f-b63af9791957.png)
+### <ins>Machine Learning Model</ins>
 
-We started with a Linear regression model to predict the price of housing.
-As we had categorical data we used get dummies to convert to numerical data.
-The target variable is the price and the rest of the columns are the features
-We used training data to train the model and then used the testing data to make predictions.
-Final scores were: r2 - 0.75057, RMSE - 178309.131621
-![image](https://user-images.githubusercontent.com/116105684/233204824-02f1f1de-4d3c-400b-adeb-141bb8f6ca73.png)
+We started with a Linear regression model to predict the price of housing. As we had categorical data we used get dummies to convert to numerical data. The target variable is the price and the rest of the columns are the features. We used training data to train the model and then used the testing data to make predictions.
+
+See final scores below:
+
 ![image](https://user-images.githubusercontent.com/116105684/233204847-c6670f48-b7bb-4273-a1e6-bb6b84db6730.png)
 
 
-Machine Learning Model - Optimized![image](https://user-images.githubusercontent.com/116105684/233204873-de9bfcd7-b9dc-40ae-bff1-0733348b467e.png)
+### <ins>Machine Learning Model</ins>
 
-To optimise the data we have dropped columns, and binned some of the categorical details.
-We have also tested 4 different models to find the best score, we found that random forest regression model was the best with the lowest RMSE score and highest r2 slides.
-We also scaled the data using the standard scaler and tested the parameters to see the best combination
-Final optimised results - r2 = 0.84735
-RMSE = 139489.746371![image](https://user-images.githubusercontent.com/116105684/233204909-4606c12c-e68b-418a-ad01-e6b87dbd5fcd.png)
+To optimise the data we have dropped columns, and binned some of the categorical details. We have also tested 4 different models to find the best score. We found that random forest regression model was the best with the lowest RMSE score and highest r2 slides.
+
+We also scaled the data using the standard scaler and tested the parameters to see the best combination.
+
+The final optimised results for r2 = 0.84735
+
+Here is an image of the results for all other regression models.
+
 ![image](https://user-images.githubusercontent.com/116105684/233204924-e2b2af58-5b49-4b47-a0f5-1c4973ded497.png)
 ![image](https://user-images.githubusercontent.com/116105684/233204940-7cb429d5-97ec-4ea5-b20e-9b02599c2560.png)
 ![image](https://user-images.githubusercontent.com/116105684/233204949-8a22e735-6804-4afe-9906-1d2cf4df6f3e.png)
 
 
 
-Predicted vs Actuals![image](https://user-images.githubusercontent.com/116105684/233204986-3acc735f-40ef-42ba-a435-ac0b59951a19.png)
+### <ins>Predicted vs Actuals</ins>
 
 ![image](https://user-images.githubusercontent.com/116105684/233205023-f834b153-a7b5-4827-8488-1537187451dc.png)
 
