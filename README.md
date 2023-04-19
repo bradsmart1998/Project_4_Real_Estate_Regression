@@ -78,5 +78,20 @@ We have extracted the date from date_sold and replaced it with month_sold and ye
 
 
 
+Clean DF![image](https://user-images.githubusercontent.com/116105684/233204485-1ec17aba-8eef-47d5-a4d3-bc98a92b86b6.png)
+
+![image](https://user-images.githubusercontent.com/116105684/233204505-30b383f0-12b7-4609-bd3c-4943e353a7ad.png)
+
+
+Data Storage![image](https://user-images.githubusercontent.com/116105684/233204568-c2af3fd5-ba3d-4ad1-abde-378aa134dbc4.png)
+We loaded our data in our database using postgres and our database tool is PGadmin.
+![image](https://user-images.githubusercontent.com/116105684/233204597-58e4081e-2b05-4a3b-bc64-f165e3b1d1aa.png)
+
+![image](https://user-images.githubusercontent.com/116105684/233204622-3efdd444-26bb-4dd6-9976-7e6886760f91.png)
+
+
+
+
+
 
 
