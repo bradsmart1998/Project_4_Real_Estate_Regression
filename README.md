@@ -96,26 +96,18 @@ The target variable is the price and the rest of the columns are the features
 We used training data to train the model and then used the testing data to make predictions.
 Final scores were: r2 - 0.75057, RMSE - 178309.131621
 ![image](https://user-images.githubusercontent.com/116105684/233204824-02f1f1de-4d3c-400b-adeb-141bb8f6ca73.png)
-
-
 ![image](https://user-images.githubusercontent.com/116105684/233204847-c6670f48-b7bb-4273-a1e6-bb6b84db6730.png)
 
 
 Machine Learning Model - Optimized![image](https://user-images.githubusercontent.com/116105684/233204873-de9bfcd7-b9dc-40ae-bff1-0733348b467e.png)
-
 
 To optimise the data we have dropped columns, and binned some of the categorical details.
 We have also tested 4 different models to find the best score, we found that random forest regression model was the best with the lowest RMSE score and highest r2 slides.
 We also scaled the data using the standard scaler and tested the parameters to see the best combination
 Final optimised results - r2 = 0.84735
 RMSE = 139489.746371![image](https://user-images.githubusercontent.com/116105684/233204909-4606c12c-e68b-418a-ad01-e6b87dbd5fcd.png)
-
-
 ![image](https://user-images.githubusercontent.com/116105684/233204924-e2b2af58-5b49-4b47-a0f5-1c4973ded497.png)
-
 ![image](https://user-images.githubusercontent.com/116105684/233204940-7cb429d5-97ec-4ea5-b20e-9b02599c2560.png)
-
-
 ![image](https://user-images.githubusercontent.com/116105684/233204949-8a22e735-6804-4afe-9906-1d2cf4df6f3e.png)
 
 
