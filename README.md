@@ -62,5 +62,6 @@ We also observed extreme values in the garage category which we have dropped in 
 
 
 
+Data Cleaning![image](https://user-images.githubusercontent.com/116105684/233202165-5bbbb5a5-593c-4274-9b72-b55b0f0c3e7d.png)
 
 
