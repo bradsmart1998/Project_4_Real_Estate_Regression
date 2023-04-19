@@ -65,3 +65,15 @@ We also observed extreme values in the garage category which we have dropped in 
 Data Cleaning![image](https://user-images.githubusercontent.com/116105684/233202165-5bbbb5a5-593c-4274-9b72-b55b0f0c3e7d.png)
 
 
+As mentioned previously we have dropped the rows with houses with more than 9 garage units.
+We have experience null values in the dataset in the garage, build year, and nearest school rank columns. In this approach we replaced the missing values with the mode so that we could keep the data.
+We swapped the year built column with the age of the property
+We had to change the column types for a few different columns 
+We have extracted the date from date_sold and replaced it with month_sold and year_sold
+![image](https://user-images.githubusercontent.com/116105684/233203697-86cfffcb-bddf-4af7-adb9-4040b01f0261.png)
+
+
+![image](https://user-images.githubusercontent.com/116105684/233203730-941524fe-229d-4785-b053-0ede2128acc0.png)
+![image](https://user-images.githubusercontent.com/116105684/233203755-751ea6b3-56f3-4954-8af3-4f7978cd0b94.png)
+
+
