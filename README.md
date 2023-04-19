@@ -16,5 +16,4 @@ Over view
 
 We are looking to create a regression model to predict the price of houses based on given features.
 This map shows the sale prices of houses. We could see that the houses are more expensive in certain areas.
-![image](https://user-images.githubusercontent.com/116105684/233199989-01b0cf37-8e12-450d-8f40-64a69be0c09a.png)
 
