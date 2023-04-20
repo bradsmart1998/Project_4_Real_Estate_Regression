@@ -2,7 +2,6 @@
 
 ![image](https://user-images.githubusercontent.com/116304118/233195721-96264cdc-338f-4f96-bca5-274172b79ed1.png)
 
-![image](https://user-images.githubusercontent.com/116105684/233199018-80ed6469-4550-45e4-b343-c4ad9c9fca17.png)
 
 ### <ins>DATA SOURCE</ins>
 We have downloaded data from kaggle. Click [here](https://www.kaggle.com/datasets/syuzai/perth-house-prices) to view the link. 
@@ -100,4 +99,8 @@ Here is an image of the results for all other regression models.
 * We would also like to trail more parameters to improve the model.
 * We had gathered more data using `Geoapify.com`. Data we collected was airports, restaurants, police stations and shopping malls. To view the csv file, please click [here](https://github.com/bradsmart1998/Project_4_Real_Estate_Regression/blob/main/Data/collected_data_api.csv)
 
+### <ins>Team</ins>
+* Brad
+* Hardip
+* Ahmed
 
