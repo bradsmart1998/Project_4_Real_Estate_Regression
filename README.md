@@ -2,12 +2,27 @@
 
 ![image](https://user-images.githubusercontent.com/116304118/233195721-96264cdc-338f-4f96-bca5-274172b79ed1.png)
 
+## <ins>Contents</ins>
 
-### <ins>DATA SOURCE</ins>
+* [Data Source](#dataset-header)
+* [Overview](#overview-header)
+* [EDA Process](#eda-header)
+* [Data Cleaning](#clean-header)
+* [Data Storage](#storage-header)
+* [Machine Learning Model](#machine-header)
+* [Optimization of the Model](#opt-header)
+* [Predicted vs Actuals](#pre-header)
+* [What Could We Do Next Time](#next-header)
+* [Team](#team-header)
+
+
+### <a id="dataset-header"></a><ins>Data Source</ins>
+
+
 We have downloaded data from kaggle. Click [here](https://www.kaggle.com/datasets/syuzai/perth-house-prices) to view the link. 
 
 
-### <ins>Overview</ins>
+### <a id="overview-header"></a><ins>Overview</ins>
 
 For our final project, we are looking to create a regression model to predict the price of houses based on given features. 
 
@@ -16,7 +31,7 @@ We could see that the houses are more expensive in certain areas, especially tho
 
 ![image](https://user-images.githubusercontent.com/116105684/233200524-1b848211-b32b-435f-8810-25e770217e1e.png)
 
-### <ins>EDA Process</ins>
+### <a id="eda-header"></a><ins>EDA Process</ins>
 
 These graphs show the spread of the data in our numerical columns. We do experience a large spread of results in columns such as garages (max - 99).
 We also experience a large spread in house prices. Most common prices are around $480,000 and max is nearly $2,500,000. 
@@ -38,7 +53,7 @@ We did experience outliers in our dataset. We have data on a variety of houses w
 
 ![image](https://user-images.githubusercontent.com/116105684/233201828-60057a2f-572f-478a-b41d-49a939399616.png)
 
-### <ins>Data Cleaning</ins>
+### <a id="clean-header"></a><ins>Data Cleaning</ins>
 
 As mentioned previously, we have dropped the rows with houses that had more than 9 garage units. We have experienced null values in the dataset in the garage, build year, and nearest school rank columns. To overcome this issue, we replaced the missing values with the mode, so that we could keep most of the data.
 
@@ -54,14 +69,14 @@ Here is a quick snippet of our clean DataFrame.
 ![image](https://user-images.githubusercontent.com/116105684/233204505-30b383f0-12b7-4609-bd3c-4943e353a7ad.png)
 
 
-### <ins>Data Storage</ins>
+### <a id="storage-header"></a><ins>Data Storage</ins>
 
 We loaded our data in our database using postgres and our database tool is PGadmin.
 
 ![image](https://user-images.githubusercontent.com/116105684/233204622-3efdd444-26bb-4dd6-9976-7e6886760f91.png)
 
 
-### <ins>Machine Learning Model</ins>
+### <a id="machine-header"></a><ins>Machine Learning Model</ins>
 
 We started with a Linear regression model to predict the price of housing. As we had categorical data we used get dummies to convert to numerical data. The target variable is the price and the rest of the columns are the features. We used training data to train the model and then used the testing data to make predictions.
 
@@ -70,7 +85,7 @@ See final scores below:
 ![image](https://user-images.githubusercontent.com/116105684/233204847-c6670f48-b7bb-4273-a1e6-bb6b84db6730.png)
 
 
-### <ins>Optimization of the Model</ins>
+### <a id="opt-header"></a><ins>Optimization of the Model</ins>
 
 To optimise the data we have dropped columns, and binned some of the categorical details. We have also tested 4 different models to find the best score. We found that random forest regression model was the best with the lowest RMSE score and highest r2 slides.
 
@@ -86,12 +101,12 @@ Here is an image of the results for all other regression models.
 
 
 
-### <ins>Predicted vs Actuals</ins>
+### <a id="pre-header"></a><ins>Predicted vs Actuals</ins>
 
 ![image](https://user-images.githubusercontent.com/116105684/233205023-f834b153-a7b5-4827-8488-1537187451dc.png)
 
 
-### <ins>What Would We Do Next Time</ins>
+### <a id="next-header"></a><ins>What Would We Do Next Time</ins>
 
 * Next time we would like to experiment with the columns, so that we can try and bring down the RMSE score. 
 * We would also look into the variance inflation factors to find out which columns affect our scores.
@@ -99,8 +114,8 @@ Here is an image of the results for all other regression models.
 * We would also like to trail more parameters to improve the model.
 * We had gathered more data using `Geoapify.com`. Data we collected was airports, restaurants, police stations and shopping malls. To view the csv file, please click [here](https://github.com/bradsmart1998/Project_4_Real_Estate_Regression/blob/main/Data/collected_data_api.csv)
 
-### <ins>Team</ins>
-* Brad
-* Hardip
-* Ahmed
+### <a id="team-header"></a><ins>Team</ins>
+* [Brad](https://github.com/bradsmart1998?tab=repositories)
+* [Hardip](https://github.com/HJandu)
+* [Ahmed](https://github.com/Ahmedabdullahi1)
 
