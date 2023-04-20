@@ -71,7 +71,7 @@ See final scores below:
 ![image](https://user-images.githubusercontent.com/116105684/233204847-c6670f48-b7bb-4273-a1e6-bb6b84db6730.png)
 
 
-### <ins>Machine Learning Model</ins>
+### <ins>Optimization of the Model</ins>
 
 To optimise the data we have dropped columns, and binned some of the categorical details. We have also tested 4 different models to find the best score. We found that random forest regression model was the best with the lowest RMSE score and highest r2 slides.
 
