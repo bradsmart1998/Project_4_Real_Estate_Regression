@@ -115,7 +115,7 @@ Here is an image of the results for all other regression models.
 * We had gathered more data using `Geoapify.com`. Data we collected was airports, restaurants, police stations and shopping malls. To view the csv file, please click [here](https://github.com/bradsmart1998/Project_4_Real_Estate_Regression/blob/main/Data/collected_data_api.csv)
 
 ### <a id="team-header"></a><ins>Team</ins>
-* [Brad](https://github.com/bradsmart1998?tab=repositories)
-* [Hardip](https://github.com/HJandu)
-* [Ahmed](https://github.com/Ahmedabdullahi1)
+* [Brad Smart](https://github.com/bradsmart1998?tab=repositories)
+* [Hardip Jandu](https://github.com/HJandu)
+* [Ahmed Abdullahi](https://github.com/Ahmedabdullahi1)
 
